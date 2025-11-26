@@ -9,5 +9,4 @@ public class SseOrderDashboardApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SseOrderDashboardApplication.class, args);
 	}
-
 }
