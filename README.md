@@ -95,14 +95,14 @@ cd sse-order-dashboard
 Create a DB:
 
 ```sql
-CREATE DATABASE sse_order_db;
+CREATE DATABASE [YOUR_DB_NAME];
 ```
 
 Update `src/main/resources/application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/sse_order_db
-spring.datasource.username=postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/[YOUR_DB_NAME]
+spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
